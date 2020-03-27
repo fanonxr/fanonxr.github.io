@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fanon X Rogers Developer Portfolio</title>
+
+    <!-- Normalize link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+
+    <!-- font awesome link -->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro|Source+Sans+Pro&display=swap" rel="stylesheet">
+
+    <!-- css styles -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header section  -->
+    <header>
+        <!-- Logo -->
+        <div class="logo">
+            <a href="index.html" class="nav__link">
+                <img src="img/fanonx-logo.png" alt="Fanon X's logo">
+            </a>
+        </div>
+        <!-- Hamburger button -->
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <!-- Navgation bar -->
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="index.html#services" class="nav__link">Skill Set</a></li>
+                <li class="nav__item"><a href="index.html#about" class="nav__link">About Me</a></li>
+                <li class="nav__item"><a href="index.html#work" class="nav__link">Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Mobile App: <strong>Flare Share</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">
+            <a href="https://github.com/fanonxr/Flutter-SC" target="_blank">
+                Code
+            </a>
+        </p>
+        <img src="img/projects/flare-share-project.jpg" alt="" class="intro__img">
+    </section>
+
+    <div class="portfolio-item-individual">
+        <p>
+            Technologies: Flutter & Dart, Firebase, Google Cloud Platform
+        </p>
+        <img src="img/projects/flare-share-demo.gif" alt="">
+        <p>
+            Flare Share is a instagram clone that allows simulates social media features.
+            Users are able to upload and like images, create, delete, and comment on posts, and edit their profiles.
+            All the data is being saved on firebase storage.
+        </p>
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <a href="mailto:fanonxdevelops@gmail.com" class="footer__link">fanonxdevelops@gmail.com</a>
+
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.linkedin.com/in/fanonxr/">
+                    <i class="fa fa-linkedin"></i>
+                </a>
+            </li>
+
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com/fanonxr">
+                    <i class="fa fa-github-square"></i>
+                </a>
+            </li>
+
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://stackoverflow.com/users/10106756/fanonx">
+                    <i class="fa fa-stack-overflow"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+    <!-- Linking js files -->
+    <script src="js/index.js"></script>
+
+</body>
+</html>
