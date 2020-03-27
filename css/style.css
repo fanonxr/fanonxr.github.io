@@ -16,6 +16,7 @@
     --clr-light: #ffffff;
     --clr-dark: #303030;
     --clr-accent: #e67c7c;
+    --clr-secondary-dark: black;
 
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
@@ -84,6 +85,7 @@ strong {font-weight: var(--fw-bold);}
     letter-spacing: 2px;
     font-weight: var(--fw-bold);
     transition: transform 300ms ease-in-out;
+    margin-right: 25px;
 }
 
 .btn:hover {
@@ -156,7 +158,7 @@ header {
     z-index: 100;
 
     transform: translateX(100%);
-    transition: transform 250ms cubic-bezier(.5, 0, .5, 1);
+    transition: transform 350ms cubic-bezier(.5, 0, .5, 1);
 }
 
 .nav-toggle {
@@ -225,7 +227,7 @@ header {
     display: flex;
     height: 100%;
     flex-direction: column;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     align-items: center;
     margin: 0;
     padding: 0;
@@ -329,6 +331,11 @@ header {
     color: white;
 }
 
+.github-container {
+    margin-top: 50px;
+    background-color: var(--clr-secondary-dark);
+}
+
 @media(min-width: 800px) {
     .services {
         display: flex;
@@ -390,21 +397,29 @@ header {
     text-align: center;
 }
 
+.section__subtitle--work {
+    color: var(--clr-accent);
+    font-weight: var(--fw-bold);
+    margin-bottom: 2em;
+}
+
 .portfolio {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    max-width: 1200px;
+    margin: 0 auto;
+
 }
 
 .portfolio__item {
-    background: var(--clr-accent);
+    background: var(--clr-dark);
     overflow: hidden;
 }
 
 .portfolio__img {
     max-width: 600px;
-    max-height: 300px;
-    transition: transform 750ms cubic-bezier(.5, 0, .5, 1),
-    opacity 250ms linear;
+    max-height: 500px;
+    transition: transform 750ms cubic-bezier(.5, 0, .5, 1), opacity 250ms linear;
 }
 
 .portfolio__item:focus {
@@ -468,6 +483,10 @@ header {
     padding: 0 2em 2em;
     max-width: 1000px;
     margin: 0 auto;
+}
+
+.mobile-projects {
+    max-width: 700px;
 }
 
 .portfolio-item-individual p {
