@@ -14,11 +14,6 @@ navLinks.forEach(link => {
 
 jQuery(document).ready(function($) {
 
-    new GitHubCalendar("#github-graph", "fanonxr", {responsive: true});
-
-
-    /* Github Activity Feed - https://github.com/caseyscarborough/github-activity */
-    GitHubActivity.feed({ username: "fanonxr", selector: "#ghfeed" });
-
+    new GitHubCalendar("#github-graph", "fanonxr", { responsive: true });
 
 });
