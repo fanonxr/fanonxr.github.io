@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
 
     <!-- font awesome link -->
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+          integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <!-- Google fonts -->
     <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro|Source+Sans+Pro&display=swap" rel="stylesheet">
 
@@ -17,100 +18,110 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <!-- Header section  -->
-    <header>
-        <!-- Logo -->
-        <div class="logo">
-            <a href="index.html" class="nav__link">
-                <img src="img/fanonx-logo.png" alt="Fanon X's logo">
-            </a>
-        </div>
-        <!-- Hamburger button -->
-        <button class="nav-toggle" aria-label="toggle navigation">
-            <span class="hamburger"></span>
-        </button>
-        <!-- Navgation bar -->
-        <nav class="nav">
-            <ul class="nav__list">
-                <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
-                <li class="nav__item"><a href="index.html#services" class="nav__link">Skill Set</a></li>
-                <li class="nav__item"><a href="index.html#about" class="nav__link">About Me</a></li>
-                <li class="nav__item"><a href="index.html#work" class="nav__link">Projects</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <!-- Introduction -->
-    <section class="intro" id="home">
-        <h1 class="section__title section__title--intro">
-            Research App<strong>ASL-LEX</strong>
-        </h1>
-        <p class="section__subtitle section__subtitle--intro">
-            <a href="https://github.com/fanonxr/asl-lex" target="_blank">
-                Code
-            </a>
-        </p>
-        <img src="img/projects/asl-lex-project.png" alt="" class="intro__img">
-    </section>
-
-    <div class="portfolio-item-individual">
-        <p>
-            <strong>Technologies: Javascript, D3, Python, Linux</strong>
-        </p>
-
-        <p><strong>ABOUT:</strong></p>
-
-        <p>
-            ASL-LEX is a database of lexical and phonological properties of nearly 1,000 signs in American Sign Language.
-            This project is a collaboration between the Laboratory for Language and Cognitive Neuroscience at San Diego State University and the Psycholinguistics and Linguistics Lab at Tufts University.
-            ASL-LEX is a searchable database of subjective frequency ratings, iconicity ratings, lexical properties (e.g., initialized signs; lexical class), and six phonological features from which neighborhood densities have been calculated.
-            ASL-LEX also provides, reference video clips, English translations and, for a subset of signs, alternative translations.
-        </p>
-
-        <img src="img/projects/asl-lex-project.png" alt="">
-
-        <p><strong>WHAT I DID:</strong></p>
-        <p>
-            During my internship at the Software Application & Innovation Lab,
-            I worked with fellow software engineers and American Sign Language researchers to migrate the previous version ASL-LEX into the new version.
-            The first version was being used in a third party application, and my team and I was tasked to develop a web application with additonal features.
-        </p>
-        <p>
-            This was an extremely challeneging project. I had to create a data pipeline with python to manage more than 2GB of American Sign Langauge data.
-            It was quite difficult to clean and manage the massive dataset. I then developed python and shell scripts on a linux server in order to process
-            all that information. It was taking 24-48 hours just to execute a script on my local machine.
-            I then parsed that data and displayed it within a graph network visualization using Javascript D3 visualization library. Although, this was by far one of the
-            most challeneging projects I've worked on, I'm grateful to SAIL and the Hariri Institute for giving me a great oppurtunity and believing in me.
-        </p>
+<!-- Header section  -->
+<header>
+    <!-- Logo -->
+    <div class="logo">
+        <a href="index.html" class="nav__link">
+            <img src="img/fanonx-logo.png" alt="Fanon X's logo">
+        </a>
     </div>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <a href="mailto:fanonxdevelops@gmail.com" class="footer__link">fanonxdevelops@gmail.com</a>
-
-        <ul class="social-list">
-            <li class="social-list__item">
-                <a class="social-list__link" href="https://www.linkedin.com/in/fanonxr/" target="_blank">
-                    <i class="fa fa-linkedin"></i>
-                </a>
-            </li>
-
-            <li class="social-list__item">
-                <a class="social-list__link" href="https://github.com/fanonxr" target="_blank">
-                    <i class="fa fa-github-square"></i>
-                </a>
-            </li>
-
-            <li class="social-list__item">
-                <a class="social-list__link" href="https://stackoverflow.com/users/10106756/fanonx" target="_blank">
-                    <i class="fa fa-stack-overflow"></i>
-                </a>
-            </li>
+    <!-- Hamburger button -->
+    <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+    </button>
+    <!-- Navgation bar -->
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+            <li class="nav__item"><a href="index.html#services" class="nav__link">Skill Set</a></li>
+            <li class="nav__item"><a href="index.html#about" class="nav__link">About Me</a></li>
+            <li class="nav__item"><a href="index.html#work" class="nav__link">Projects</a></li>
         </ul>
-    </footer>
+    </nav>
+</header>
 
-    <!-- Linking js files -->
-    <script src="js/index.js"></script>
+<!-- Introduction -->
+<section class="intro" id="home">
+    <h1 class="section__title section__title--intro">
+        Research App<strong>ASL-LEX</strong>
+    </h1>
+    <p class="section__subtitle section__subtitle--intro">
+        <a href="https://github.com/fanonxr/asl-lex" target="_blank">
+            Code
+        </a>
+    </p>
+    <img src="img/projects/asl-lex-project.png" alt="" class="intro__img">
+</section>
+
+<div class="portfolio-item-individual">
+    <p>
+        <strong>Technologies: Javascript, D3, Python, Linux</strong>
+    </p>
+
+    <p><strong>ABOUT:</strong></p>
+
+    <p>
+        ASL-LEX is a database of lexical and phonological properties of nearly 1,000 signs in American Sign Language.
+        This project is a collaboration between the Laboratory for Language and Cognitive Neuroscience at San Diego
+        State University and the Psycholinguistics and Linguistics Lab at Tufts University.
+        ASL-LEX is a searchable database of subjective frequency ratings, iconicity ratings, lexical properties (e.g.,
+        initialized signs; lexical class), and six phonological features from which neighborhood densities have been
+        calculated.
+        ASL-LEX also provides, reference video clips, English translations and, for a subset of signs, alternative
+        translations.
+    </p>
+
+    <img src="img/projects/asl-lex-project.png" alt="">
+
+    <p><strong>WHAT I DID:</strong></p>
+    <p>
+        During my internship at the Software Application & Innovation Lab,
+        I worked with fellow software engineers and American Sign Language researchers to migrate the previous version
+        ASL-LEX into the new version.
+        The first version was being used in a third party application, and my team and I was tasked to develop a web
+        application with additional features.
+    </p>
+    <p>
+        This was an extremely challenging project. I had to create a data pipeline with python to manage more than 2GB
+        of American Sign Langauge data.
+        It was quite difficult to clean and manage the massive dataset. I then developed python and shell scripts on a
+        linux server in order to process
+        all that information. It was taking 24-48 hours just to execute a script on my local machine.
+        I then parsed that data and displayed it within a graph network visualization using Javascript D3 visualization
+        library. Although, this was by far one of the
+        most challenging projects I've worked on, I'm grateful to SAIL and the Hariri Institute for giving me a great
+        opportunity and believing in me.
+    </p>
+</div>
+
+<!-- Footer -->
+<footer class="footer">
+    <a href="mailto:fanonxdevelops@gmail.com" class="footer__link">fanonxdevelops@gmail.com</a>
+
+    <ul class="social-list">
+        <li class="social-list__item">
+            <a class="social-list__link" href="https://www.linkedin.com/in/fanonxr/" target="_blank">
+                <i class="fa fa-linkedin"></i>
+            </a>
+        </li>
+
+        <li class="social-list__item">
+            <a class="social-list__link" href="https://github.com/fanonxr" target="_blank">
+                <i class="fa fa-github-square"></i>
+            </a>
+        </li>
+
+        <li class="social-list__item">
+            <a class="social-list__link" href="https://stackoverflow.com/users/10106756/fanonx" target="_blank">
+                <i class="fa fa-stack-overflow"></i>
+            </a>
+        </li>
+    </ul>
+</footer>
+
+<!-- Linking js files -->
+<script src="js/index.js"></script>
 
 </body>
 </html>
