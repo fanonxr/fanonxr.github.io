@@ -11,14 +11,14 @@
 
     <!-- font awesome link -->
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
-          integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
     <!-- Google fonts -->
     <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro|Source+Sans+Pro&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
 
-    <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
 
     <!-- github calendar css -->
     <link rel="stylesheet" href="plugins/github-calendar/dist/github-calendar.css">
@@ -35,191 +35,194 @@
 </head>
 
 <body>
-<!-- Header section  -->
-<header>
-    <!-- Logo -->
-    <div class="logo">
-        <a href="index.html" class="nav__link">
-            <img src="img/fanonx-logo.png" alt="Fanon X's logo">
-        </a>
-    </div>
-    <!-- Hamburger button -->
-    <button class="nav-toggle" aria-label="toggle navigation">
-        <span class="hamburger"></span>
-    </button>
-    <!-- Navgation bar -->
-    <nav class="nav">
-        <ul class="nav__list">
-            <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
-            <li class="nav__item"><a href="#services" class="nav__link">Skill Set</a></li>
-            <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
-            <li class="nav__item"><a href="#work" class="nav__link">Projects</a></li>
-        </ul>
-    </nav>
-</header>
+    <!-- Header section  -->
+    <header>
+        <!-- Logo -->
+        <div class="logo">
+            <a href="index.html" class="nav__link">
+                <img src="img/fanonx-logo.png" alt="Fanon X's logo">
+            </a>
+        </div>
+        <!-- Hamburger button -->
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <!-- Navgation bar -->
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">Skill Set</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">Projects</a></li>
+            </ul>
+        </nav>
+    </header>
 
-<!-- Introduction -->
-<section class="intro" id="home">
-    <h1 class="section__title section__title--intro">
-        Hey, I'm <strong>Fanon X</strong>
-    </h1>
-    <p class="section__subtitle section__subtitle--intro">Software Engineer</p>
-    <img src="img/fanonx-profile.jpg" alt="A Professional picture of Fanon X" class="intro__img">
-</section>
+    <!-- Introduction -->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hey, I'm <strong>Fanon X</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">Software Engineer</p>
+        <img src="img/fanonx-profile.jpg" alt="A Professional picture of Fanon X" class="intro__img">
+    </section>
 
-<!-- Skill Set section -->
-<section class="my-services" id="services">
-    <h2 class="section__title section__title--services">Skills</h2>
-    <div class="services">
-        <div class="service">
-            <h3>Software Engineering</h3>
-            <p></p>
+    <!-- Skill Set section -->
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">Skills</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Software Engineering</h3>
+                <p></p>
+                <p>
+                    My experience revolves around building applications for the web, and mobile. From creating the
+                    frontend
+                    client,
+                    to configuring the backend server with REST API endpoints. I'm always growing and looking to dive
+                    deeper into core system level development,
+                    networking, and cloud computing.
+                </p>
+            </div> <!-- closing of service -->
+
+        </div><!-- closing services -->
+
+        <h2 class="section__title section__title--services">Languages and Technologies</h2>
+
+        <p class="tech-languages">
+            <strong>LANGUAGES:</strong>
+            Java, Python, JavaScript, Dart & Flutter, SQL, GoLang, Shell
+        </p>
+
+        <p class="tech-languages">
+            <strong>TECHNOLOGIES:</strong>
+            Git, Android, Google Cloud Platform, MySQL, sqLite, MongoDB, Node, Docker
+        </p>
+
+        <a href="#work" class="btn my-projects-btn">Projects</a>
+
+        <a href="content/fanonx-rogers-2020-resume.pdf" class="btn my-projects-btn" target="_blank">Resume</a>
+
+        <div id="github-graph" class="github-graph github-container"></div>
+
+    </section>
+
+    <!-- About Me -->
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">
+            Who I Am
+        </h2>
+        <p class="section__subtitle section__subtitle--about">Backend, Web, and Mobile Software Engineer</p>
+        <div class="about-me__body">
             <p>
-                My experience revolves around building applications for the web, and mobile. From creating the frontend
-                client,
-                to configuring the backend server with REST API endpoints. I'm always growing and looking to dive
-                deeper into core system level development,
-                networking, and cloud computing.
+                Around the young age of 6, I remember attempting to build a robot out a cardboard box, a workout wheel,
+                a bicycle helmet, and aluminium foil.
+                This stark memory of my childhood is a reflection of my upbringing as I pursue my passion in software
+                engineering.
             </p>
-        </div> <!-- closing of service -->
 
-    </div><!-- closing services -->
+            <p>
+                I graduated from Boston University with my Masters in Software Development and received my Bachelors in
+                Computer Science from Quinnipiac University.
+                I currently work as a Software Engineer at Oracle Cloud Infrastructure within the Cloud Functions team.
+                Throughout my time at Boston University and Quinnipiac University, I've learned valuable concepts: from
+                algorithms to design patterns,
+                web development to mobile development, agile methodology to software development life cycle.
+                My experience has provided me with a substantial amount of knowledge to succeed in the industry.
+            </p>
 
-    <h2 class="section__title section__title--services">Languages and Technologies</h2>
+            <p>
+                I'm interested in various technologies from Web development to Mobile development,
+                but I've become quite fascinated with the topics of cloud computing technologies,
+                object serialization, backend development, and distributed systems.
+            </p>
 
-    <p class="tech-languages">
-        <strong>LANGUAGES:</strong>
-        Java, Python, JavaScript, Dart & Flutter, SQL, GoLang
-    </p>
+            <p>
+                When I'm not building projects, I'm enjoying various activities including:
+                traveling, hiking, snowboarding, biking, DJing and producing music.
+            </p>
 
-    <p class="tech-languages">
-        <strong>TECHNOLOGIES:</strong>
-        Git, Android, Google Cloud Platform, MySQL, sqLite, MongoDB, Node, Docker
-    </p>
+            <p>
+                P.S.
+            </p>
+            <p>
+                The correct pronouncation of my name is Fa-non-X
+            </p>
+        </div>
 
-    <a href="#work" class="btn my-projects-btn">Projects</a>
+        <img src="img/fanonx-img-1.JPG" alt="Fanon X standing near a clif enjoying the view" class="about-me__img">
+    </section>
 
-    <a href="content/fanonx-rogers-2020-resume.pdf" class="btn my-projects-btn" target="_blank">Resume</a>
+    <!-- Projects section -->
+    <section class="my-work" id="work">
+        <h2 class="section__title section__title--work">Personal and Academic Projects</h2>
+        <p class="section__subtitle--work">A selection of web and mobile Applications</p>
+        <div class="portfolio">
 
-    <div id="github-graph" class="github-graph github-container"></div>
+            <!-- project item 2 -->
+            <a href="asl-lex.html" class="portfolio__item">
+                <img src="img/projects/asl-lex-project.png" alt="image of a project" class="portfolio__img">
 
-</section>
-
-<!-- About Me -->
-<section class="about-me" id="about">
-    <h2 class="section__title section__title--about">
-        Who I Am
-    </h2>
-    <p class="section__subtitle section__subtitle--about">Backend, Web, and Mobile Software Engineer</p>
-    <div class="about-me__body">
-        <p>
-            Around the young age of 6, I remember attempting to build a robot out a cardboard box, a workout wheel,
-            a bicycle helmet, and aluminium foil.
-            This stark memory of my childhood is a reflection of my upbringing as I pursue my passion in software
-            engineering.
-            I'm pursuing a Master's in Software Development at Boston University and received my bachelors in
-            engineering from Quinnipiac University.
-            I currently work as a Research Assistant developing Mobile Applications for fitness activities.
-            Throughout my time at Boston University and Quinnipiac University, I've learned valuable concepts: from
-            algorithms to design patterns,
-            web development to mobile development, agile methodology to software development life cycle.
-            My experience has provided me with a substantial amount of knowledge to succeed in the industry.
-        </p>
-
-        <p>
-            I'm interested in various technologies from Web development to Mobile development,
-            but I've become quite fascinated with the topics of cloud computing technologies,
-            object serialization, backend development, and distributed systems.
-            I cannot wait to learn Golang and have a look at Rust to start diving deeper into these topics.
-        </p>
-
-        <p>
-            When I'm not building projects, I'm enjoying various activities including:
-            traveling, hiking, snowboarding, biking, DJing and producing music.
-        </p>
-
-        <p>
-            P.S.
-        </p>
-        <p>
-            The correct pronouncation of my name is Fa-non-X
-        </p>
-    </div>
-
-    <img src="img/fanonx-img-1.JPG" alt="Fanon X standing near a clif enjoying the view" class="about-me__img">
-</section>
-
-<!-- Projects section -->
-<section class="my-work" id="work">
-    <h2 class="section__title section__title--work">Personal and Academic Projects</h2>
-    <p class="section__subtitle--work">A selection of web and mobile Applications</p>
-    <div class="portfolio">
-
-        <!-- project item 2 -->
-        <a href="asl-lex.html" class="portfolio__item">
-            <img src="img/projects/asl-lex-project.png" alt="image of a project" class="portfolio__img">
-
-        </a>
-
-        <!-- project item 4 -->
-        <a href="zengage.html" class="portfolio__item">
-            <img src="img/projects/zengage-project.png" alt="image of a project" class="portfolio__img">
-        </a>
-
-        <!-- project item 1 -->
-        <a href="food-arsenal.html" class="portfolio__item">
-            <img src="img/projects/food-project.png" alt="image of a project" class="portfolio__img">
-        </a>
-
-
-        <!-- project item 3 -->
-        <a href="flare-share.html" class="portfolio__item">
-            <img src="img/projects/flare-share-project.jpg" alt="image of a project" class="portfolio__img">
-        </a>
-
-    </div>
-</section>
-
-<!-- Footer -->
-<footer class="footer">
-    <a href="mailto:fanonxdevelops@gmail.com" class="footer__link">fanonxdevelops@gmail.com</a>
-
-    <ul class="social-list">
-        <li class="social-list__item">
-            <a class="social-list__link" href="https://www.linkedin.com/in/fanonxr/" target="_blank">
-                <i class="fa fa-linkedin"></i>
             </a>
-        </li>
 
-        <li class="social-list__item">
-            <a class="social-list__link" href="https://github.com/fanonxr" target="_blank">
-                <i class="fa fa-github-square"></i>
+            <!-- project item 4 -->
+            <a href="zengage.html" class="portfolio__item">
+                <img src="img/projects/zengage-project.png" alt="image of a project" class="portfolio__img">
             </a>
-        </li>
 
-        <li class="social-list__item">
-            <a class="social-list__link" href="https://stackoverflow.com/users/10106756/fanonx" target="_blank">
-                <i class="fa fa-stack-overflow"></i>
+            <!-- project item 1 -->
+            <a href="food-arsenal.html" class="portfolio__item">
+                <img src="img/projects/food-project.png" alt="image of a project" class="portfolio__img">
             </a>
-        </li>
-    </ul>
-</footer>
 
-<!-- Plugins -->
-<script type="text/javascript" src="plugins/jquery-3.4.1.min.js"></script>
-<script type="text/javascript" src="plugins/popper.min.js"></script>
-<script type="text/javascript" src="plugins/bootstrap/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="plugins/jquery-rss/dist/jquery.rss.min.js"></script>
 
-<!-- github calendar plugin -->
-<script type="text/javascript" src="plugins/github-calendar/dist/github-calendar.min.js"></script>
+            <!-- project item 3 -->
+            <a href="flare-share.html" class="portfolio__item">
+                <img src="img/projects/flare-share-project.jpg" alt="image of a project" class="portfolio__img">
+            </a>
 
-<!-- github activity plugin -->
-<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
-<!-- <script type="text/javascript" src="plugins/github-activity/github-activity-0.1.5.min.js"></script> -->
+        </div>
+    </section>
 
-<!-- Linking js files -->
-<script src="js/index.js"></script>
+    <!-- Footer -->
+    <footer class="footer">
+        <a href="mailto:fanonxdevelops@gmail.com" class="footer__link">fanonxdevelops@gmail.com</a>
+
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.linkedin.com/in/fanonxr/" target="_blank">
+                    <i class="fa fa-linkedin"></i>
+                </a>
+            </li>
+
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com/fanonxr" target="_blank">
+                    <i class="fa fa-github-square"></i>
+                </a>
+            </li>
+
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://stackoverflow.com/users/10106756/fanonx" target="_blank">
+                    <i class="fa fa-stack-overflow"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+    <!-- Plugins -->
+    <script type="text/javascript" src="plugins/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="plugins/popper.min.js"></script>
+    <script type="text/javascript" src="plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="plugins/jquery-rss/dist/jquery.rss.min.js"></script>
+
+    <!-- github calendar plugin -->
+    <script type="text/javascript" src="plugins/github-calendar/dist/github-calendar.min.js"></script>
+
+    <!-- github activity plugin -->
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
+    <!-- <script type="text/javascript" src="plugins/github-activity/github-activity-0.1.5.min.js"></script> -->
+
+    <!-- Linking js files -->
+    <script src="js/index.js"></script>
 
 </body>
 
